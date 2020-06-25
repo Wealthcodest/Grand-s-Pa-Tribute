@@ -23,9 +23,57 @@ p {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    color: rgb(41, 39, 39);
 }
 
 #title {
     font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+#image {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    filter: grayscale(0.8);
+}
+
+#img-caption {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#photo-credit {
+    color: gray;
+    font-size: 7px;
+}
+
+#tribute-info {
+    width: 70%;
+    margin: auto;
+}
+
+#tribute-info p,
+h1,
+li {
+    padding: 10px;
+    margin: 5px;
+}
+
+#tribute-info p:first-child {
+    text-align: center;
+}
+
+#tribute-info ul {
+    width: 90%;
+    margin: auto;
 }
